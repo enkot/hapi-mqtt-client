@@ -1,0 +1,24 @@
+{
+  "name": "hapi-mqtt-client",
+  "version": "0.1.0",
+  "description": "MQTT-client plugin for Hapi, based on MQTT.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [
+    "mqtt",
+    "hapi",
+    "client",
+    "nodejs"
+  ],
+  "author": "Enkot",
+  "license": "ISC",
+  "devDependencies": {
+    "hapi": "^18.1.0",
+    "jest": "^24.7.1"
+  },
+  "dependencies": {
+    "async-mqtt": "^2.2.1"
+  }
+}
